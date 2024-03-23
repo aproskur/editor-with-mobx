@@ -1,0 +1,59 @@
+{
+  "$View": {
+    "$platforms": {
+      "react": {
+        "app": {
+          "class": "application",
+          "component": "reactApp",
+          "cssFile": "",
+          "css": "",
+          "elements": {
+            "S1": {
+              "name": "S1",
+              "class": "screen",
+              "component": "cardsScreen",
+              "background": "",
+              "cssFile": "",
+              "css": "",
+              "elements": {
+                "A1": {
+                  "name": "cardsArea",
+                  "class": "area",
+                  "component": "areaComponent",
+                  "layout": {},
+                  "cssFile": "",
+                  "css": "",
+                  "C1": {
+                    "name": "C1",
+                    "class": "card",
+                    "description": "",
+                    "tags": "",
+                    "states": {
+                      "st1": {
+                        "cssFile": "",
+                        "css": "",
+                        "name": "front"
+                      },
+                      "st2": {
+                        "cssFile": "",
+                        "css": "",
+                        "name": "back"
+                      },
+                      "$metaData": {
+                        "name": {
+                          "$description": {}
+                        },
+                        "$bindings": []
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "reactFlow": {}
+    }
+  }
+}
